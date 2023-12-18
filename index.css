@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+ body { 
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 1em 0; 
+    height: 100vh;     
+}
+
+.container {
+    display: flex;
+    flex-direction: column;   
+}
+
+.header {
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    height: 20%;
+}
+
+input {
+    width: 80px;
+    height: 55px;
+}
+
+select {
+    width: 310px;
+    height: 40px;
+    margin: 0 1em;
+}
+
+button {
+    font-size: 0.8rem;
+    background: none;
+    padding: 1em;  
+    cursor: pointer;
+}
+
+button, select {
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px; 
+    border: 1px solid #D1D5DB;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+}
+
+.colors-box {
+    width: 7.5em;
+}
+
+#hex-footer {
+    display: grid;
+    grid-template-columns: repeat(5, 7.5em);
+    padding-left: 1.5em;
+}
